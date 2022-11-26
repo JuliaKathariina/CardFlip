@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import img1 from "./img1.gif";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="main">
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src={img1} alt="Snow" height="250px" width="500px" />
+          </div>
+          <div class="flip-card-back">
+            <h1>⭐️Reminder⭐️</h1>
+
+            <p>Tomorrow the Christmas season begins</p>
+            <p>We love that 🎄 </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
